@@ -14,7 +14,8 @@ public class UserService {
 
 
     public void createUser(String id, String name) {
-        //implemente o metodo
+        User user = new User(id, name);
+        userRepository.save(user);
     }
 
 

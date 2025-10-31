@@ -1,3 +1,5 @@
+package domain;
+
 public class User {
 
     public User(String id, String name) {
